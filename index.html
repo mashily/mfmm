@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>M@shily Store</title>
+  <style>
+    body {
+      background-color: #000;
+      color: #00ff88;
+      font-family: "Courier New", monospace;
+      margin: 0;
+      padding: 0;
+      text-align: center;
+    }
+    header {
+      padding: 30px 0;
+      background-color: #020202;
+      border-bottom: 1px solid #00ff88;
+    }
+    h1 {
+      font-size: 2em;
+      letter-spacing: 2px;
+      text-shadow: 0 0 8px #00ff88;
+    }
+    .container {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 40px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .product {
+      background-color: #0a0a0a;
+      border: 1px solid #00ff88;
+      border-radius: 10px;
+      padding: 15px;
+      box-shadow: 0 0 10px #00ff88;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 20px #00ff88;
+    }
+    .product img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    .name {
+      font-size: 1.2em;
+      margin: 10px 0;
+      color: #00ffaa;
+    }
+    .price {
+      font-size: 1.1em;
+      color: #00ff88;
+    }
+    .btn {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      border: 1px solid #00ff88;
+      border-radius: 5px;
+      text-decoration: none;
+      color: #00ff88;
+      transition: background-color 0.3s;
+    }
+    .btn:hover {
+      background-color: #00ff88;
+      color: #000;
+    }
+    footer {
+      padding: 15px;
+      font-size: 0.9em;
+      border-top: 1px solid #00ff88;
+      color: #00ffaa;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🟢 M@shily Store 🖥️</h1>
+  </header>
+
+  <section class="container">
+    <div class="product">
+      <img src="https://i.imgur.com/0rZ6r4f.png" alt="Hard Disk">
+      <div class="name">هارد SSD 500GB</div>
+      <div class="price">1500 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/3D4JcSR.png" alt="Keyboard">
+      <div class="name">كيبورد ميكانيكال RGB</div>
+      <div class="price">900 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/Z9bEoYI.png" alt="Mouse">
+      <div class="name">ماوس جيمينج</div>
+      <div class="price">350 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/xK8qfWN.png" alt="Flash Drive">
+      <div class="name">فلاشة 64GB</div>
+      <div class="price">180 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/T8w1aKd.png" alt="Cable">
+      <div class="name">كابل بيانات سريع</div>
+      <div class="price">70 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+    <div class="product">
+      <img src="https://i.imgur.com/jEkENwL.png" alt="Laptop">
+      <div class="name">لابتوب i7 16GB RAM</div>
+      <div class="price">22000 جنيه</div>
+      <a href="#" class="btn">شراء</a>
+    </div>
+  </section>
+
+  <footer>
+    ⓒ 2025 M@shily Store - Designed with 💚 by MFMM
+  </footer>
+</body>
+</html>
